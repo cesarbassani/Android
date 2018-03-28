@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             this.mViewHolder.textDollar.setText(String.format("%.2f", value * 3));
             this.mViewHolder.textEduro.setText(String.format("%.2f", value * 4));
+
+
         }
     }
 
